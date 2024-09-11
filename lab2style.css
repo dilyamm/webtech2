@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+header h1, header h2 {
+    margin: 0;
+}
+
+.header-text {
+    flex: 1;
+}
+
+.header-image {
+    flex: 0 0 300px;
+    margin-left: 20px;
+}
+
+img {
+    border: 5px solid #555;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.book-section {
+    border: 2px solid #888;
+    border-radius: 10px;
+    border-style: solid;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.book-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.book-description {
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    padding: 20px;
+}
+
+form {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #ddd;
+    text-decoration: none;
+}
